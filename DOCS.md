@@ -2,13 +2,13 @@ Use this plugin to build and push Docker images to the Google Container Registry
 
 The following parameters are used to configure this plugin:
 
-* `registry` - authenticates to this registry (default -> `gcr.io`)
+* `registry` - authenticates to this registry (defaults to `gcr.io`)
 * `token` - json token (required)
 * `repo` - repository name for the image (required)
-* `tag` - a list of repository tags for the image (default -> `latest`)
+* `tag` - a list of repository tags for the image (defaults to `latest`)
 * `storage_driver` - use `aufs`, `devicemapper`, `btrfs` or `overlay` driver 
-* `file` - path from project root to Dockerfile to use for build (default -> `Dockerfile`)
-* `context` - build context for docker image (default -> `.`)
+* `file` - path from project root to Dockerfile to use for build (defaults to `Dockerfile`)
+* `context` - build context for docker image (defaults to `.`)
 
 Sample configuration:
 
